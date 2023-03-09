@@ -1,0 +1,21 @@
+server:
+  port: 8088
+
+spring:
+  config:
+    activate:
+      on-profile: local
+  security:
+    user:
+      name: user
+      password: password
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
+          cloneOnStart: true
+
+greeting:
+  message: hi, this is a message served from local file system config server
+
