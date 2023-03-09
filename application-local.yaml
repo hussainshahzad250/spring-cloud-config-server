@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/hussainshahzad250/spring-cloud-config-server.git
           cloneOnStart: true
 
 greeting:
